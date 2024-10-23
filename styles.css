@@ -1,42 +1,37 @@
-ul{
+ul {
     list-style-type: none;
 }
 
 .button {
     color: #faf4ea;
-    background-color:#819b57;
+    background-color: #819b57;
     border: 2px solid #819b57;
     border-radius: 8px;
     cursor: pointer;
 }
 
 .button:hover {
-    color: #4655929;
+    color: #465592;
     background-color: transparent;
 }
 
-.link{
+.link {
     color: #faf4ea;
 }
 
-.link:hover{
-    color: #819b57
+.link:hover {
+    color: #819b57;
 }
 
-.hero-title{
-   color:#FAF4EA;
+.hero-title {
+    color: #FAF4EA;
 }
 
-.hero-title. accent {
+.hero-title .accent {
     color: #819b57;
 }
 
 .advantages-list {
-    color: #faf4ea
-  background-color: #819b57;
-}
-
-.span{
-    color: #FAF4EA;
+    color: #faf4ea;
     background-color: #819b57;
 }
