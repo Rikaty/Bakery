@@ -41,7 +41,7 @@ ul {
 /* Hero-section*/
 .hero-title {
     color: var(--color-brand);
-    font-family: 'Poppins' sans-serif;
+    font: 'Poppins' sans-serif;
 }
 
  .accent {
