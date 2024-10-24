@@ -41,15 +41,16 @@ ul {
 /* Hero-section*/
 .hero-title {
     color: var(--color-brand);
+    font-family: 'Poppins' sans-serif;
 }
 
-.hero-title .accent {
-    color: #819b57;
+ .accent {
+    color: var(--color-brand);
 }
 
 /* Advantages section */
 .advantages-list {
-    color: #faf4ea;
+    color: var(--color-primary-light);
     background-color: var(--color-brand);
 }
 
