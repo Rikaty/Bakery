@@ -7,7 +7,7 @@
   
   /* Base */
   body{
-    color: ;
+    color: var(--color-primary-dark);
 
   }
 
