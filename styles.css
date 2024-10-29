@@ -8,6 +8,7 @@
   /* Base */
   body{
     color: var(--color-primary-dark);
+    font-family: 'Poppins', sans-serif;
 
   }
 
@@ -60,7 +61,10 @@ ul {
 }
 
 /* Traditions section*/
-.traditions-text span{
-    text-transform: uppercase;
+.traditions-text .brand {
     color: var(--color-brand);
+}
+
+.traditions-text .uppercase {
+    text-transform: uppercase;
 }
