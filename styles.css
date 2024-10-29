@@ -42,6 +42,7 @@ ul {
 .hero-title {
     color: var(--color-brand);
     font-family: 'Poppins', sans-serif;
+    text-align: center;
 }
 
  .accent {
@@ -56,4 +57,10 @@ ul {
 
 .section-title.accent{
     color: var(--color-brand-dark); 
+}
+
+/* Traditions section*/
+.traditions-text span{
+    text-transform: uppercase;
+    color: var(--color-brand);
 }
