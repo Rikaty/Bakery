@@ -38,6 +38,10 @@
   }
   
   /* Base */
+  *{
+    box-sizing: border-box;
+  }
+
   .body{
     color: var(--color-primary-dark);
     font-family: 'Poppins', sans-serif;
@@ -46,12 +50,35 @@
     line-height: 1.5;
   }
 
+  h1, 
+  h2, 
+  h3, 
+  h4, 
+  h5, 
+  h6, 
+  p {
+    margin-top: 0;
+  }
+
   .address{
     font-style: normal;
   }
 
 ul {
     list-style-type: none;
+}
+
+.visually-hidden{
+    position:absolute;
+        left:-10000px;
+        top:auto;
+        width:1px;
+        height:1px;
+        overflow:hidden;
+}
+
+.section{
+    padding: 48px 0;
 }
 
 /* Button */
@@ -80,7 +107,12 @@ ul {
 }
 
 /* Hero-section*/
+.hero-section{
+    padding: 272px 0;
+}
+
 .hero-title {
+    margin-bottom: 0;
     color: var(--color-brand);
     font-family: 'Poppins', sans-serif;
     text-align: center;
@@ -114,6 +146,10 @@ ul {
 }
 
 /* Traditions section*/
+.traditions-section{
+    padding-top: 96px;
+}
+
 .traditions-text .brand {
     color: var(--color-brand);
 }
