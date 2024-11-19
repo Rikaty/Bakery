@@ -191,11 +191,14 @@ ul {
 
 /* Traditions section*/
 .traditions-section{
-    padding-top: 96px;
+    padding-top: 2px;
 }
 
 .traditions-container{
     display: flex;
+}
+
+.tradition-content{
 }
 
 .traditions-title{
@@ -208,6 +211,10 @@ ul {
 
 .traditions-text .uppercase {
     text-transform: uppercase;
+}
+
+.traditions-text.limited{
+    max-width: 340px;
 }
 
 /* Chefs section */
