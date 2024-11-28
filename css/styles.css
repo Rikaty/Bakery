@@ -147,7 +147,8 @@ ul {
     padding: 272px 0;
     background-image: url('../images/couple-in-bakery.jpg');
     background-repeat: no-repeat;
-    background-position: right ;
+    background-position: center top ;
+    background-size: cover;
 }
 
 .hero-title {
@@ -239,6 +240,7 @@ ul {
 
 .format-card{
     padding: 24px;
+    background-image: url('../images/warlus.jpg') ;
     border: 1px solid lightgrey; /* remove */
     border-radius: 16px;
 }
