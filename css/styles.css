@@ -297,6 +297,21 @@ ul {
     font-weight: 300;
 }
 
+/*Carousel*/
+.carousel-button{
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 1px solid var(--color-primary-dark);
+}
+
+.carousel-arrow{
+    fill: var(--color-primary-dark);
+    padding: 0;
+}
+
 /* Footer */
 .address-link{
     color: var(--color-primary-light);
@@ -308,6 +323,15 @@ ul {
 .address-link:hover {
     color: var(--color-brand);
 }
+
+.address-icon{
+    fill: var(--color-primary-light);
+}
+
+.address-icon:hover{
+    fill: var(--color-primary-light);
+}
+
 
 .address-copyright{
     font-size: 14px;
