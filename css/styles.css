@@ -351,8 +351,43 @@ ul {
     /* fill: var(--color-primary-dark); */
 }
 
+.contact-section{
+    padding-bottom: 96px;
+}
+
+.contact-container{
+    display: flex;
+}
+
+.contact-title{
+    margin-bottom: 16px;
+}
+
+.contact-map{
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: none;
+}
+
 /* Footer */ 
-.address-link{
+.footer-container{
+    display: flex;
+    /*gap: 20px; */
+}
+
+.footer-nav {
+    display: flex;
+    flex-basis: 50%;
+    /*gap: 20px;*/
+}
+
+.footer-address {
+   display: flex;
+   flex-basis: 50%;
+   /*gap: 20px;*/
+}
+
+.address-link {
     color: var(--color-primary-light);
     font-size: 16px;
     font-weight: 300;

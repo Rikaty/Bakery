@@ -52,7 +52,7 @@
         </div>
     </section>
 
-    <section class="traditions-section" id="traditions-selection">
+    <section class="traditions-section section" id="traditions-selection">
       <div class="container">
         <h2 class="section-title section-title">Новий формат традицій</h2>
         <div class="traditions-container">
@@ -75,7 +75,7 @@
     </section>
 
 
-    <section>
+    <section class="section contact-section">
       <div class="container">
         <h2 class="chefs-title section-title centered">Наші найкращі <span class="accent ">шеф-кухарі</span></h2>
         <ul class="chefs-list">
@@ -107,7 +107,7 @@
       </div>
     </section>
 
-    <section>
+    <section class="section contact-section">
       <div class="container">
         <h2 class="section-title centered">Формати</h2>
         <div class=formats-container>
@@ -157,22 +157,29 @@
         </div>
     </section>
 
-    <section>
+    <section class="section contact-section" id="contact-section">
       <div class="container">
+        <div class="contact-container">
+          <div class="contact-form">
       <h2 class="section-title">Приєднуйся до мережі пекарень</h2>
       <p> Заповни форму, щоб ми зв'язались з тобою!</p>
+      </div>
       <iframe
+      class="contact-map"
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.1636289098733!2d30.4912733!3d50.4566776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce637c006b2d%3A0xaf86385f19996ff0!2z0LLRg9C70LjRhtGPINCh0ZbRh9C-0LLQuNGFINCh0YLRgNGW0LvRjNGG0ZbQsiwgNTQsINCa0LjRl9CyLCAwMjAwMA!5e0!3m2!1suk!2sua!4v1728998112144!5m2!1suk!2sua"
         width="603" height="595" style="border:0;" allowfullscreen="" loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
+      </div>
+      </div>
     </section>
 
   </main>
-  <!--Logo-->>
+  <!--Logo-->
   <footer class="footer">
-    <nav>
-      <a rhef="#">
+      <div class="container">
+        <div class="footer-container">
+    <nav class="footer-nav">
+      <a href="#">
         <img src="./images/logo.svg.svg" alt="Логотип сучасної пекарні" />
       </a>
       <ul>
@@ -181,37 +188,45 @@
         <li><a class="link" href="#">Контакти</a></li>
       </ul>
     </nav>
-    <button type="button">2022 дані захищені</button>
-    <address>
-      <ul>
-        <li>
-          <a class="address-link" href="tel:+38(096)0000007">+38 (096) 000 00 07</a>
-        </li>
-        <li>
-          <a class="address-link" href="mailto: shopbakery@gmail.com">shopbakery@gmail.com</a>
-        </li>
-        <li>
-          <a class="address-link" href="https://maps.app.goo.gl/HRnNFbzd1YkFMZ1BA">
-            Україна, м. Київ, вул. Січових Стрільців 54
-          </a>
-        </li>
-        <a href="#">
-          <svg class="address-icon" width="32" height="32">
-            <use href="./images/icons.svg#icon-facebooksvg-2"></use>
-          </svg>
-        </a>
-        </li>
-        <li>
+    </div>
+    </div>
+    </section>
+    <section>
+      <div class="container">
+        <nav>      <ul>
+          <li>
+            <a class="address-link" href="tel:+38(096)0000007">+38 (096) 000 00 07</a>
+          </li>
+          <li>
+            <a class="address-link" href="mailto: shopbakery@gmail.com">shopbakery@gmail.com</a>
+          </li>
+          <li>
+            <a class="address-link" href="https://maps.app.goo.gl/HRnNFbzd1YkFMZ1BA">
+              Україна, м. Київ, вул. Січових Стрільців 54
+            </a>
+          </li>
           <a href="#">
             <svg class="address-icon" width="32" height="32">
-              <use href="./images/icons.svg#icon-instsvg"></use>
+              <use href="./images/icons.svg#icon-facebooksvg-2"></use>
             </svg>
           </a>
-        </li>
-      </ul>
+          <li>
+            <a href="#">
+              <svg class="address-icon" width="32" height="32">
+                <use href="./images/icons.svg#icon-instsvg"></use>
+              </svg>
+            </a>
+          </li>
+        </ul></nav>
+    <button type="button">2022 дані захищені</button>
+    <address class="footer-address">
+
       <a class="address-link" href="#" target="_blank">Політика конфіденційності</a>
       <p class="address-copyright">&copy; 2024 Дані захищені</p>
     </address>
+  </div>
+  </div>
+  </section>
   </footer>
 </body>
 
