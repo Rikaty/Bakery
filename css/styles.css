@@ -175,6 +175,10 @@ ul {
     color: var(--color-brand);
 }
 
+.pekarnia {
+    color: var(--color-primary-light)
+}
+
 /* Advantages section */
 .advantages-section {
     padding: 16px 0;
@@ -237,6 +241,7 @@ ul {
 
 /* Chefs section */
 .chefs-title {
+    position: relative;
     max-width: 520px;
     margin: 0 auto 80px;
 }
@@ -258,27 +263,31 @@ ul {
 
 .chefs-title::before,
 .chefs-title::after {
+    position: absolute;
     display: block;
     width: 352px;
     border: 2px solid var(--color-bran-light);
     content: '';
+    bottom: 24px;
 }
 
 .chefs-title::before {
-    display: block;
+    /*display: block;
     width: 352px;
     height: 2px;
     background-color: #cfcfbc;
     border: 2px solid #cfcfbc;
-    content: '';
+    content: '';*/
+    left: -360px;
 }
 
 .chefs-title::after {
-    display: block;
+    /*display: block;
     width: 352px;
     height: 2px;
     background-color: #cfcfbc;
-    content: '';
+    content: '';*/
+    right: -360px;
 }
 
 .chefs-list {
@@ -307,6 +316,10 @@ ul {
 
 .chef-text p:last-child {
     margin-bottom: 0;
+}
+
+.chefs-accent {
+    color: var(--color-brand-dark)
 }
 
 .formats-container {
@@ -388,6 +401,35 @@ ul {
 /* Footer */
 .footer {
     padding: 32px 0;
+    position: relative;
+    background-color: var(--color-primary-dark);
+    background-image: url('../images/footer-background.png.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.footer::before,
+.footer::after {
+    position: absolute;
+    bottom: 0;
+    background-repeat: no-repeat;
+    content: '';
+}
+
+.footer::before {
+    width: 180px;
+    height: 120px;
+    left: 0;
+    background-image: url('../images/decor-bread-small.png');
+    /*background-size: 100%;*/
+}
+
+.footer::after {
+    width: 380px;
+    height: 190px;
+    right: 0;
+    background-image: url('../images/decor-bread-large.png');
 }
 
 .footer-container {
@@ -448,7 +490,17 @@ ul {
     font-size: 14px;
 }
 
-.footer {
-    background-color: var(--color-primary-dark);
-    background-image: url('../images/footer-background.png.png');
+/*modal*/
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.modal {
+    width: 880px;
+    height: 880px;
+    background-color: var(--color-primary-light);
 }
