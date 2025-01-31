@@ -30,7 +30,7 @@
               <li class="header-item"><a class="link" rhef="contact-section">Контакти</a></li>
             </ul>
         </nav>
-        <button class="button" , type="button">Замовити дзвінок</button>
+        <button class="button modal-btn-open" , type="button">Замовити дзвінок</button>
       </div>
     </div>
   </header>
@@ -231,17 +231,25 @@
     </div>
     <section>
       <div class="container">
-
-
       </div>
-
     </section>
   </footer>
 
   <div class="backdrop">
     <div class="modal">
+      <button class="modal-btn-close" type="button">Close</button>
     </div>
   </div>
+
+  <script src="
+  const modal = document.querySelector('.modal');
+  const modalBtnOpen = document.querySelector('.modal-btn-open');
+  const modalBtnClose = document.querySelector('.modal-btn-close');
+  
+  const toggleModal = () => modal.classList.toggle('is-hidden');
+  
+  modalBtnOpen.addEventListener('click', toggleModal);
+  modalBtnClose.addEventListener('click', toggleModal);"></script>
 </body>
 
 </html>
