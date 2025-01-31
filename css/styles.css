@@ -491,6 +491,11 @@ ul {
 }
 
 /*modal*/
+.backdrop.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
 .backdrop {
     position: fixed;
     top: 0;
@@ -502,6 +507,9 @@ ul {
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.5);
 }
+
+
+
 .modal {
     position: relative;
     width: 880px;
@@ -510,7 +518,7 @@ ul {
     border-radius: 32px;
 }
 
-.modal-btn-close{
+.modal-btn-close {
     position: absolute;
     top: 40px;
     right: 40px;
