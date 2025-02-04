@@ -30,7 +30,7 @@
               <li class="header-item"><a class="link" rhef="contact-section">Контакти</a></li>
             </ul>
         </nav>
-        <button class="button .modal-btn-open" , type="button">Замовити дзвінок</button>
+        <button class="button modal-btn-open" type="button">Замовити дзвінок</button>
       </div>
     </div>
   </header>
@@ -153,7 +153,7 @@
               </article>
             </li>
           </ul>
-          <button class="carousel-button" type="button">
+          <button class="carousel-button next" type="button">
             <svg class="carousel-arrow" width="44" height="44">
               <use href="./images/icons.svg#icon-Arrow"></use>
             </svg>
@@ -235,19 +235,17 @@
     </section>
   </footer>
 
-  <div class="backdrop">
+  <div class="backdrop ">
     <div class="modal">
       <button class="modal-btn-close" type="button">Close</button>
+      <h2>Замовити дзвінок</h2>
+      <p>Залишіть заявку та наш спеціаліст зв'яжеться з Вами!</p>
+      <form name="contact-form" autocomplete="off" novalidate>
+        <input type="text" />
+      </form>
     </div>
   </div>
-  <script src="const modal = document.querySelector('.backdrop');
-  const modalBtnOpen = document.querySelector('.modal-btn-open');
-  const modalBtnClose = document.querySelector('.modal-btn-close');
-  
-  const toggleModal = () => backdrop.classList.toggle('is-hidden');
-  
-  modalBtnOpen.addEventListener('click', toggleModal);
-  modalBtnClose.addEventListener('click', toggleModal);"></script>
+  <script src="./js/modal.js"></script>
 </body>
 
 </html>
