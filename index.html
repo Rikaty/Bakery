@@ -46,7 +46,7 @@
           <div class="tradition-content">
             <h2 class="visually-hidden"> Наші переваги </h2>
             <ul class="advantages-list">
-              <li class="advantages-item">Великий попит на ринкуу</li>
+              <li class="advantages-item">Великий попит на ринку</li>
               <li class="advantages-item">Доступні за бюджетом формати</li>
               <li class="advantages-item">Досвідчена управлінська команда</li>
             </ul>
@@ -235,13 +235,35 @@
     </section>
   </footer>
 
-  <div class="backdrop ">
+  <div class="backdrop">
     <div class="modal">
       <button class="modal-btn-close" type="button">Close</button>
       <h2>Замовити дзвінок</h2>
-      <p>Залишіть заявку та наш спеціаліст зв'яжеться з Вами!</p>
+      <p>Залиште заявку та наш спеціаліст зв'яжеться з Вами!</p>
       <form name="contact-form" autocomplete="off" novalidate>
-        <input type="text" />
+        <div class="form-field">
+          <label class="form-label visually-hidden" for="user-name">Ім'я</label>
+          <input class="form-input" type="text" name="user-name" id="user-name" placeholder="Ім'я" />
+        </div>
+
+        <div class="form-field">
+          <label class="form-label visually-hidden" for="user-tel">Телефон</label>
+          <input class="form-input" type="tel" name="user-tel" id="user-tel" placeholder="Телефон" />
+        </div>
+
+        <div class="form-field">
+          <label class="form-label visually-hidden" for="user-email">Електронна пошта</label>
+          <input class="form-input" type="email" name="user-email" id="user-email" placeholder="Електронна пошта" />
+        </div>
+
+        <div>
+          <button class="form-button button" type="submit">Замовити дзвінок</button>
+        </div>
+        <p>Натискаючи на кнопку, я погоджуюсь
+          <a href="#">з політикою конфіденційності</a>
+        </p>
+
+
       </form>
     </div>
   </div>
