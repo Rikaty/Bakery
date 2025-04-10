@@ -170,18 +170,18 @@
 // console.log(arr.includes("c"));
 
 
-const fruts = [
-    { id: 0, name: "Apple" },
-    { id: 1, name: "Tomato" },
-    { id: 2, name: "Cherry" },
-    { id: 3, name: "Orange" },
-];
+// const fruts = [
+//     { id: 0, name: "Apple" },
+//     { id: 1, name: "Tomato" },
+//     { id: 2, name: "Cherry" },
+//     { id: 3, name: "Orange" },
+// ];
 
 // console.log(fruts.find((item) => item.id === 3));
 // console.log(fruts.filter((item) => item.id < 2));
 // let result = fruts.map(item => item.name.length);
 // console.log(result);
-let names = "Оля, Юля, Аня, Пєтя";
+// let names = "Оля, Юля, Аня, Пєтя";
 
 // let arr = names.split(", ");
 
@@ -191,6 +191,63 @@ let names = "Оля, Юля, Аня, Пєтя";
 
 // console.log(newString);
 
-let arr = [1, 2, 3, 4, 5];
+// let arr = [1, 2, 3, 4, 5];
 
-let red = arr.reduce((summ, item)=> summ+item);
+// let red = arr.reduce((summ, item)=> summ+item);
+
+
+// let arr = [23, 45, 30];
+
+// let summ = arr.reduce((sum, item) => sum + item) / arr.length;
+// console.log(summ);
+
+
+// function showMessage (name, city){
+//     console.log("Hello, my name is " + name + " I'm from " + city);
+// }
+
+// showMessage("Katie,", "Zhytomyr");
+// showMessage("Ola,", "Lviv");
+
+
+
+// const username = 'Ann';
+
+// const sayHi = function () {
+//    let message = "Helloooo, my name is ";
+//     console.log(message + username);
+// };
+
+// sayHi();
+
+
+// function  sum (a,b) {
+//     return a + b;
+// }
+
+// let result = sum(7, 8);
+
+// console.log(result);
+
+
+// const testFunk= function(a,b){
+//     console.log("a :", a);
+//     console.log("b :", b);
+
+//     return;
+// };
+
+// testFunk(5, 8);
+
+
+const a = function () {
+    console.log("function a");
+};
+
+const b = function () {
+    console.log("function b");
+};
+
+const c = function () {
+    console.log("function c");
+};
