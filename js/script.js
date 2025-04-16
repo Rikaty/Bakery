@@ -240,14 +240,37 @@
 // testFunk(5, 8);
 
 
-const a = function () {
-    console.log("function a");
+// const a = function () {
+//     c();
+//     console.log("function a");
+//     b();
+// };
+
+// const b = function () {
+//     console.log("function b");
+// };
+
+// const c = function () {
+//     console.log("function c");
+// };
+
+// a();
+
+
+
+// const addName = function(){
+//     const arg= Array.from(arguments);
+//     console.log(arguments);
+//     console.log(arg);
+// };
+
+// addName(1, 3, 5, 67, 55);
+
+
+
+
+const addName = function (...arg) {
+    console.log(arg);
 };
 
-const b = function () {
-    console.log("function b");
-};
-
-const c = function () {
-    console.log("function c");
-};
+addName(1, 3, 5);
