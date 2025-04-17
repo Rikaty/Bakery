@@ -269,8 +269,87 @@
 
 
 
-const addName = function (...arg) {
-    console.log(arg);
-};
+// const addName = function (...arg) {
+//     console.log(arg);
+// };
 
-addName(1, 3, 5);
+// addName(1, 3, 5);
+
+
+// function ask(question, yes, no) {
+//     if (confirm(question)) {
+//         yes();
+//     } else {
+//         no();
+//     }
+// }
+
+// function showOk() {
+//     console.log("You say ok");
+// }
+
+// function showCancel() {
+//     console.log("You say no");
+// }
+
+// ask("Yes or no?", showOk, showCancel);
+
+
+
+// const hello = function (name) {
+//     console.log(`Hello, ${name}`);
+// };
+
+// const searchName = function (callback) {
+//     const name = "Katie";
+//     callback(name);
+// };
+
+// searchName(hello);
+
+
+
+// function checkAge(age) {
+//     if (age > 18) {
+//         return console.log("Hello");
+//     }
+//     return console.log("Goodbye");
+// }
+
+// checkAge(120);
+
+
+// function showMovie(age){
+//     if(age<21) {
+//         return
+//     }
+//     return console.log("Go to hell:)");
+// }
+
+// showMovie(23);
+
+
+
+// const a = () => {
+//     console.log("a");
+// };
+
+// const b = () => {
+//     console.log("b");
+// };
+
+// const c = () => {
+//     console.log("c");
+//     a();
+//     b();
+// };
+
+// c();
+
+
+
+console.log(document);
+
+const numberRef = document.querySelector('input [name = "number"]')
+
+console.log(numberRef.value);
